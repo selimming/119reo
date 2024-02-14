@@ -96,6 +96,7 @@ header{
 
 .section_1{
     padding: 0;
+    height: 100vh;
     
 }
 
@@ -521,11 +522,13 @@ footer{
     height: 100%;
 }
 .sec1_1920{
-    display: none;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
-.sec1_1200{
+/* .sec1_1200{
     display: block;
-}
+} */
 /* ---section_1 end--- */
 .section_2{
     padding: 100px 50px;
@@ -735,6 +738,9 @@ footer{
     }
 
     .sec1_1200{
+        display: none;
+    }
+    .sec1_1920{
         display: none;
     }
 
